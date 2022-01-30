@@ -1,36 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #ececec;
-  font-style: normal;
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background: #ffffff;
+}
+a {
+  text-decoration: none;
 }
 ul {
-  list-style: none;
+  list-style-type: none;
 }
 /*Шапка*/
-header {
+.head {
   position: absolute;
-  width: 1500px;
+  display: inline-block;
   height: 80px;
+  width: 1600px;
   left: 0px;
   top: 0px;
-  background: #ffffff;
+  border-radius: 0px;
+  color: white;
 }
 
 /* WebStudio */
 .studio {
-  color: black;
   position: absolute;
+  color: black;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
+  text-decoration: none;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  text-decoration: none;
   /* identical to box height */
   letter-spacing: 0.03em;
 }
@@ -40,81 +46,103 @@ header {
 /* Menu Nav */
 .nav-s {
   position: absolute;
-  width: 49px;
+  color: black;
   height: 16px;
+  width: 49px;
   left: 453px;
   top: 32px;
 }
 .nav-p {
   position: absolute;
-  width: 76px;
+  color: black;
   height: 16px;
+  width: 76px;
   left: 552px;
   top: 32px;
 }
 .nav-c {
   position: absolute;
-  width: 68px;
+  color: black;
   height: 16px;
+  width: 68px;
   left: 679px;
   top: 32px;
 }
 /* E-mail */
 .mail {
   position: absolute;
-  width: 135px;
   height: 16px;
+  width: 135px;
   left: 1078px;
   top: 32px;
 }
 .tel {
-  text-decoration-color: #757575;
   position: absolute;
-  width: 122px;
   height: 16px;
+  width: 122px;
   left: 1263px;
   top: 32px;
 }
+
 /*Герой*/
+.img-hero {
+  position: absolute;
+  background: url(/images/Bg.jpg);
+  height: 600px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+}
 .text-hero {
   position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
   top: 280px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
+/*button*/
 .button-hero {
   position: absolute;
-  background: #2196f3;
-  color: white;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
+  display: inline-block;
+  background: #2196f3;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  margin-top: 50px;
 }
-.img-hero {
-  background: url(/images/Bg.jpg);
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-}
-/* Особенности */
-.info {
-  position: absolute;
-  width: 1170px;
-  height: 101px;
+
+/*footer*/
+.studio-foot {
+  color: white;
+  width: 145px;
+  height: 31px;
   left: 215px;
-  top: 774px;
+  top: 24px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
 }
