@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
       <header class="head">
          <a class="studio" href=""><span class="web">Web</span>Studio</a>
-          <nav>
+           <nav class="nav">
              <ul>
-                <li class="nav-s">
-                    <a href="/index.html">Студия</a>
+                <li>
+                    <a class="nav-s" href="/index.html">Студия</a>
                 </li>
-                <li class="nav-p">
-                    <a href="/portfolio.html">Портфолио</a>
+                <li>
+                    <a class="nav-p" href="/portfolio.html">Портфолио</a>
                 </li>
-                <li class="nav-c">
-                    <a href="">Контакты</a>
+                <li>
+                    <a class="nav-c" href="">Контакты</a>
                 </li> 
              </ul>
            </nav>
-           <ul>
-               <li class="mail">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul>
+               <li>
+                <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                </li>
-               <li class="tel">
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+               <li>
+                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
                </li>
-           </ul>
+            </ul>
       </header>
       <main>
          <section class="img-hero">
@@ -61,21 +64,21 @@
         <section class="work">
             <h2>Чем мы занимаемся</h2>
             <ul>
-                <li>
+                <li class="box-1" >
                   <img src="./images/box-1.jpg" alt="Пример 1" width="370" height="295">
                 </li>
                  <li>
-                  <img src="./images/box-2.jpg" alt="Пример 2" width="370" height="295">
+                  <img class="box-2" src="./images/box-2.jpg" alt="Пример 2" width="370" height="295">
                 </li>
                  <li>
-                  <img src="./images/box-3.jpg" alt="Пример 3" width="370" height="295">
+                  <img class="box-3" src="./images/box-3.jpg" alt="Пример 3" width="370" height="295">
                 </li>
             </ul>
             </section>
         <section class="people">
             <h2>Наша команда</h2>
             <ul>
-                <li>
+                <li class="card-1">
                    <img src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="270">
                    <h3>Игорь Демьяненко</h3>
                    <p lang="en">Product Designer</p>
@@ -98,8 +101,8 @@
             </ul>
         </section>
       </main>
-            <footer class="footer">
-                 <a class="studio-foot" href=""><span class="web">Web</span>Studio</a>
+            <footer>
+                 <a href=""><span class="web">Web</span>Studio</a>
                 <address>
                     <p>г. Киев, пр-т Леси Украинки, 26</p>
                   <ul>
