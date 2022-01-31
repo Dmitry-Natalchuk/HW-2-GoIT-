@@ -1,9 +1,10 @@
 body {
-  position: relative;
-  font-family: Roboto;
-  width: 1600px;
   height: 2349px;
-  background: #ffffff;
+  width: 1600px;
+  left: -800px;
+  top: -1175px;
+  border-radius: 0px;
+  
 }
 /*hover*/
 a:hover {
@@ -18,7 +19,6 @@ a.studio:hover {
 /*Шапка*/
 .head {
   position: absolute;
-  display: inline-block;
   height: 80px;
   width: 1600px;
   left: 0px;
@@ -99,7 +99,6 @@ a.studio:hover {
 /*Герой*/
 .img-hero {
   position: absolute;
-  background: url(/images/Bg.jpg);
   height: 600px;
   width: 1600px;
   left: 0px;
@@ -141,67 +140,6 @@ a.studio:hover {
   margin-top: 50px;
 }
 /*Особенности*/
-.info {
-  position: absolute;
-  top: 774px;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-}
-
-
 /*Чем занимаемся*/
-.work {
-  position: absolute;
-  display: inline-block;
-width: 1170px;
-height: 386px;
-left: 215px;
-top: 969px;
-}
-.box-1{
-  position: absolute;
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
-}
-.box-2{
-  position: absolute;
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1061px;
-}
-.box-3{
-  position: absolute;
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1061px;
-  
-}
 /*Наша команда*/
-.people {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-  
-  background: #F5F4FA;
-}
-
 /*footer*/
-footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-  
-  background: #2F303A;
-}
