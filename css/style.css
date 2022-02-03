@@ -1,50 +1,40 @@
-* {
-  margin: 0;
-}
 body {
-  height: 2349px;
-  width: 1600px;
-  left: -800px;
-  top: -1175px;
-  border-radius: 0px;
-  
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
 }
 /*hover*/
 a:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 a.studio:hover {
   color: black;
 }
-  li {
+ul {
   list-style-type: none;
 }
-/*Шапка*/
-.head {
-  position: absolute;
-  height: 80px;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  color: white;
-}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
+  color: #212121;
+}
 /* WebStudio */
 .studio {
-  position: absolute;
-  text-decoration: none;
-  color:black;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   /* identical to box height */
+
   letter-spacing: 0.03em;
 }
 .web {
@@ -52,107 +42,66 @@ a.studio:hover {
   text-decoration: none;
 }
 /* Menu Nav */
-.nav-s {
-  position: absolute;
-  text-decoration: none;
-  color: #212121;
-  height: 16px;
-  width: 49px;
-  left: 453px;
-  top: 32px;
-}
-.nav-p {
-  position: absolute;
-  text-decoration: none;
-  color: #212121;
-  height: 16px;
-  width: 76px;
-  left: 552px;
-  top: 32px;
-}
-.nav-c {
-  position: absolute;
-  text-decoration: none;
-  color: #212121;
-  height: 16px;
-  width: 68px;
-  left: 679px;
-  top: 32px;
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 /* E-mail */
 .mail {
-  position: absolute;
   text-decoration: none;
   color: #757575;
-  height: 16px;
-  width: 135px;
-  left: 1078px;
-  top: 32px;
 }
 .tel {
-  position: absolute;
   text-decoration: none;
   color: #757575;
-  height: 16px;
-  width: 122px;
-  left: 1263px;
-  top: 32px;
 }
 
 /*Герой*/
-.img-hero {
-  position: absolute;
-  background: url(/images/Bg.jpg);
-  height: 600px;
-  width: 1600px;
-  left: 0px;
-  top: 80px;
-  border-radius: 0px;
-}
 .text-hero {
-  position: absolute;
-  margin-top: auto;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
+  font-style: 400;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: 1.4;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
 }
 /*button*/
 .button-hero {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  display: inline-block;
-  background: #2196f3;
-  color: #fff;
-  padding: 12px;
-  border-radius: 3px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 1;
-  font-weight: 100;
-  margin-top: 50px;
+  font-family: inherit;
 }
 .button-hero:hover {
-  background: #188CE8;
+  background: #188ce8;
 }
-/*Особенности
-.info{}
-.feature-1 {}
-.feature-2 {}
-.feature-3 {}
-.feature-4 {}
-*/
+.title-section {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/*Особенности*/
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #757575;
+}
 /*Чем занимаемся*/
+
 /*Наша команда*/
+.people .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.prof {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #757575;
+}
 /*footer*/
+.adres {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
