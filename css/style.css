@@ -9,33 +9,32 @@ a {
   text-decoration: none;
   color: #212121;
 }
-/*hover*/
-a:hover {
+/*hover,focus*/
+.tel:focus,
+.tel:hover,
+.mail:focus,
+.mail:hover,
+.nav-info:focus,
+.nav-info:hover {
   color: #2196f3;
 }
-a.studio:hover {
-  color: black;
-}
-ul {
+.list {
   list-style-type: none;
 }
-h2 {
+.title-section {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
 /* WebStudio */
 .studio {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
 }
 .web {
   color: blue;
@@ -59,16 +58,20 @@ h2 {
 
 /*Герой*/
 .text-hero {
-  font-style: 400;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  color: #ffffff;
+  background: #212121;
 }
 /*button*/
 .button-hero {
   font-family: inherit;
+  color: #fff;
+  background: #2196f3;
 }
+.button-hero:focus,
 .button-hero:hover {
   background: #188ce8;
 }
@@ -79,7 +82,7 @@ h2 {
   text-align: center;
 }
 /*Особенности*/
-p {
+.paragraf-info {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -89,19 +92,70 @@ p {
 /*Чем занимаемся*/
 
 /*Наша команда*/
+.people {
+  background: #f5f4fa;
+}
 .people .name {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
 .prof {
+  text-align: center;
   font-size: 16px;
   line-height: 1.2;
   color: #757575;
 }
 /*footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer .studio {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #fff;
+}
 .adres {
-  font-weight: normal;
+  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  color: #ffffff;
+}
+.address a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*ПОРТФОЛИО*/
+.button-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  background: #f5f4fa;
+  color: #212121;
+}
+.button-portfolio:focus,
+.button-portfolio:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+.title-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.paragraf-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #757575;
 }
